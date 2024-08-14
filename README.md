@@ -16,7 +16,7 @@ QA-Attack is a novel adversarial attack framework designed specifically to targe
 
 ### Prerequisites
 
-- Python 3.6 or higher
+- Python 3.8
 - Required Python packages (listed in `requirements.txt`)
 
 ### Installation Steps
