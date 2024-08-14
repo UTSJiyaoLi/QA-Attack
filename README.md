@@ -31,7 +31,7 @@ QA-Attack is a novel adversarial attack framework designed specifically to targe
 
 The QA-Attack framework is tested on multiple QA datasets. Below are the datasets used, along with links to their Hugging Face pages:
 
-- [**SQuAD 1.1**](https://huggingface.co/datasets/squad) and [**SQuAD 1.1**](https://huggingface.co/datasets/rajpurkar/squad_v2): Stanford Question Answering Dataset, a reading comprehension dataset consisting of questions posed by crowdworkers on a set of Wikipedia articles.
+- [**SQuAD 1.1**](https://huggingface.co/datasets/squad) and [**SQuAD v2**](https://huggingface.co/datasets/rajpurkar/squad_v2): Stanford Question Answering Dataset, a reading comprehension dataset consisting of questions posed by crowdworkers on a set of Wikipedia articles.
 - [**NewsQA**](https://huggingface.co/datasets/newsqa): A machine comprehension dataset consisting of questions and answers from CNN news articles.
 - [**BoolQ**](https://huggingface.co/datasets/boolq): A dataset for yes/no questions containing a diverse set of questions about Wikipedia passages.
 - [**NarrativeQA**](https://huggingface.co/datasets/narrativeqa): A dataset for story comprehension, where models must generate answers to questions based on summaries of books and movie scripts.
