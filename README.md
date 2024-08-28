@@ -1,6 +1,6 @@
 # QA-Attack
 
-**QA-Attack: Exposing Vulnerabilities in Question Answering Models Using Hybrid Ranking Fusion**
+**QA-Attack: A Novel Adversarial Approach for Attacking Question Answering Systems**
 
 ## Overview
 
