@@ -4,6 +4,8 @@
 
 ## Overview
 
+![QA-Attack Workflow](qattack_workflow.png)
+
 QA-Attack is a novel adversarial attack framework designed specifically to target and expose vulnerabilities in Question Answering (QA) models. By leveraging a Hybrid Ranking Fusion (HRF) algorithm that combines attention-based and removal-based ranking methods, QA-Attack identifies the most critical tokens within context passages and questions, allowing for precise and effective adversarial examples that mislead QA models while maintaining semantic coherence.
 
 ## Features
