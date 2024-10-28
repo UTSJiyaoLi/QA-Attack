@@ -28,7 +28,7 @@ QA-Attack is a novel adversarial attack framework designed specifically to targe
    ```bash
    git clone https://github.com/UTSJiyaoLi/QA-Attack.git
    cd QA-Attack
-```
+   ```
 ## Datasets
 
 The QA-Attack framework is tested on multiple QA datasets. Below are the datasets used, along with links to their Hugging Face pages:
@@ -44,6 +44,18 @@ The following victim models were used for evaluating the effectiveness of the QA
 
 - [**UnifiedQA**](https://huggingface.co/allenai/unifiedqa-t5-large): A general-purpose question answering model that can handle various QA formats (extractive, abstractive, multiple-choice, yes/no).
 - [**BERT-base**](https://huggingface.co/bert-base-uncased): The base model for BERT (Bidirectional Encoder Representations from Transformers), fine-tuned for question answering tasks.
-- [**DistilBERT-base**](https://huggingface.co/distilbert-base-uncased): A smaller, faster, and lighter version of BERT that retains much of its performance.
+- [**LongT5**](https://huggingface.co/google/long-t5-local-base): A variant of T5 optimized for handling long sequences, ideal for QA tasks involving extensive context.
 
 Ensure that you have the necessary datasets and models downloaded and set up before running the attack scripts.
+
+## Baseline Attacks
+
+In addition to QA-Attack, the following baseline attacks were used for comparison:
+
+- [**TASA**](https://aclanthology.org/2022.emnlp-main.821)
+- [**RobustQA**](https://arxiv.org/abs/1907.11932)
+- [**Tick Me If You Can (TMYC)**](https://aclanthology.org/2020.emnlp-main.84)
+- [**T3**](https://arxiv.org/abs/2112.07916)
+- [**TextFooler**](https://arxiv.org/abs/1907.11932)
+
+These baseline attacks help assess the robustness and performance of QA-Attack against other leading adversarial techniques.
