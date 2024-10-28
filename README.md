@@ -1,6 +1,6 @@
 # QA-Attack
 
-**Deceiving Question-Answering Models: A Hybrid
+Code for our paper **Deceiving Question-Answering Models: A Hybrid
 Word-Level Adversarial Approach**
 
 ## Overview
