@@ -1,6 +1,7 @@
 # QA-Attack
 
-**QA-Attack: A Novel Adversarial Approach for Attacking Question Answering Systems**
+**Deceiving Question-Answering Models: A Hybrid
+Word-Level Adversarial Approach**
 
 ## Overview
 
