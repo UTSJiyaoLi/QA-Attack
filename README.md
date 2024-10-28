@@ -11,7 +11,7 @@ QA-Attack is a novel adversarial attack framework designed specifically to targe
 ## Features
 
 - **Hybrid Ranking Fusion (HRF) Algorithm**: Combines Attention-based Ranking (ABR) and Removal-based Ranking (RBR) to identify the most vulnerable tokens in the input.
-- **Versatile Attack**: Targets both "Yes/No" questions and "Wh-questions", demonstrating the robustness of the attack across different question types.
+- **Versatile Attack**: Targets both \``Informative'' and ``Boolean'' questions, demonstrating the robustness of the attack across different question types.
 - **Black-box Approach**: No need for direct access to the target model’s architecture or parameters, making the attack applicable to a wide range of QA models.
 
 ## Installation
